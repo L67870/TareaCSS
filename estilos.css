@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: blue;
+}
+h2::before{
+content: "JOSE ";
+}
+h2::after{
+content: " RODRIGUEZ";
+}
+h2::first-letter{
+    color: brown;
+}
+.nombreuno::selection{
+    color: rgb(26, 224, 26);
+}
+.nombredos::first-line{
+    text-transform: uppercase;
+    color: darkslategray;
+}
+.cuadro{
+    width: 40px;
+    height: 40px;
+    background: darkgreen;
+    position: fixed;
+    
+}
+.cuad{
+    width: 40px;
+    height: 40px;
+    background: rgb(142, 163, 142);
+    position: relative;
+    left: 710px;
+}
+.cuadrad{
+    width: 40px;
+    height: 40px;
+    background: rgb(11, 211, 11);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.letraa{
+    font-family: serif;
+}
+
+.letrab{
+    font-family: sans-serif;
+}
